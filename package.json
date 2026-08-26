@@ -1,0 +1,15 @@
+{
+  "name": "chinese-almanac-api",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "description": "Chinese almanac API with Tong Shu day officers and 28 lunar mansions, plus auspicious date selection for weddings, openings and moves.",
+  "license": "MIT",
+  "dependencies": {
+    "@roxyapi/sdk": "^1.2.70"
+  },
+  "scripts": {
+    "ts": "bun example.ts",
+    "js": "node example.js"
+  }
+}
