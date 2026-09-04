@@ -2,7 +2,7 @@
 
 # Chinese Almanac API
 
-> Chinese almanac API for the Tong Shu day view and auspicious date selection. Day officer, 28 lunar mansions, lunisolar date, clash animal, and the favours and avoids lists as structured fields, plus a bounded search that returns the favourable days for a named activity. One key covers 14+ spiritual domains. MCP-first, nine translated locales including Simplified and Traditional Chinese.
+> Chinese almanac API for the Tong Shu day view and auspicious date selection. Day officer, 28 lunar mansions, lunisolar date, clash animal, and the favours and avoids lists as structured fields, plus a bounded search that returns the favourable days for a named activity. One key covers 18+ spiritual domains. MCP-first, nine translated locales including Simplified and Traditional Chinese.
 
 [![Get API Key](https://img.shields.io/badge/Get_API_Key-RoxyAPI-14b8a6?style=for-the-badge&logo=key&logoColor=white)](https://roxyapi.com/pricing)
 [![Try Live](https://img.shields.io/badge/Try_API_Live-Free_in_browser-22c55e?style=for-the-badge&logo=swagger&logoColor=white)](https://roxyapi.com/api-reference)
@@ -18,13 +18,13 @@ The first returns the almanac reading of a single day: its lunisolar date, the y
 
 The second is the date selection half, and it is where the reading turns into a decision. Send an activity, a start date and an end date, and the auspicious date API scans the window and returns every day the activity is favoured on, each with the same full reading attached. Add an animal to protect and the days that clash with it drop out, which is how a date is chosen around the people attending rather than in the abstract.
 
-One subscription unlocks 14+ spiritual domains: Western astrology, Vedic astrology, Forecast, Human Design, Chinese astrology, Feng Shui, numerology, tarot, biorhythm, I Ching, crystals, dreams, angel numbers, and location. The lunisolar calendar underneath is computed by Roxy Ephemeris from the exact solar term and new moon instants, at the UTC+8 reference meridian the Chinese calendar is defined on, so a lunar calendar day is the same worldwide instead of shifting with the caller timezone.
+One subscription unlocks 18+ spiritual domains: Western astrology, Vedic astrology, Forecast, Human Design, Chinese astrology, Feng Shui, Mesoamerican astrology, Vastu, numerology, Kabbalah, tarot, biorhythm, Ayurveda, I Ching, crystals, dreams, angel numbers, and location. The lunisolar calendar underneath is computed by Roxy Ephemeris from the exact solar term and new moon instants, at the UTC+8 reference meridian the Chinese calendar is defined on, so a lunar calendar day is the same worldwide instead of shifting with the caller timezone.
 
 ## Why this API
 
 | Property | Value |
 |----------|-------|
-| Coverage | 14+ spiritual domains in one subscription |
+| Coverage | 18+ spiritual domains in one subscription |
 | Calculation | Roxy Ephemeris, evaluated at the UTC+8 reference meridian with leap months handled |
 | Structured fields | Day officer, lunar mansion, clash animal, favours and avoids, all typed, never prose to parse |
 | Languages | English plus nine translated locales, including Simplified and Traditional Chinese |
